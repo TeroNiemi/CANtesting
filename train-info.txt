@@ -1,6 +1,4 @@
-Training data example data:
-
-Tesla, Nissan Leaf, BMW, Zebra
+Training data manufacturers:   Tesla, Nissan Leaf, BMW, Zebra
 
 Types:
 1 = voltage and current

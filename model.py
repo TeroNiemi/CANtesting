@@ -17,14 +17,14 @@ train_df['features'] = train_df['Data'].apply(hex_string_to_bytes)
 X_train = np.array(train_df['features'].tolist())
 y_train = train_df['Type'].values
 
-num_classes = 10
+num_classes = 6
 y_train_adjusted = y_train - 1
 y_train_categorical = to_categorical(y_train_adjusted, num_classes)
 
 model = Sequential()
-model.add(Dense(8, input_dim=8, activation='relu'))
+model.add(Dense(16, input_dim=8, activation='relu'))
 model.add(Dropout(0.5))  # Dropout 
-model.add(Dense(8, activation='relu'))
+model.add(Dense(16, activation='relu'))
 model.add(Dropout(0.5))  # Dropout 
 model.add(Dense(num_classes, activation='softmax'))
 
@@ -32,10 +32,10 @@ model.add(Dense(num_classes, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # EarlyStopping
-early_stopping = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
+early_stopping = EarlyStopping(monitor='val_loss', patience=20, restore_best_weights=True)
 
 
-history = model.fit(X_train, y_train_categorical, epochs=50, batch_size=32, validation_split=0.2, callbacks=[early_stopping])
+history = model.fit(X_train, y_train_categorical, epochs=100, batch_size=32, validation_split=0.2, callbacks=[early_stopping])
 
 # Read test data
 test_df = pd.read_csv('test.csv', sep=';')
