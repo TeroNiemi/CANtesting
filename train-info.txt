@@ -1,0 +1,18 @@
+Training data example data:
+
+Tesla
+Nissan Leaf
+BMW
+Zebra
+
+
+Types:
+ 
+1 = voltage
+2 = current
+3 = voltage and current
+4 = temperature
+5 = soc
+6 = temperature and soc
+8 = parameters and settings   
+10 = other data

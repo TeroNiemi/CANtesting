@@ -1,106 +1,73 @@
-import os
 import pandas as pd
 import numpy as np
-import tensorflow as tf
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from tensorflow.keras.models import Sequential, load_model
-from tensorflow.keras.layers import Dense
 import matplotlib.pyplot as plt
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.callbacks import EarlyStopping
 
 
+def hex_string_to_bytes(hex_string):
+    bytes_list = [int(hex_string[i:i+2], 16) for i in range(0, len(hex_string), 2)]
+    return bytes_list
+
+train_df = pd.read_csv('train-classes.csv', sep=';')
+
+train_df['features'] = train_df['Data'].apply(hex_string_to_bytes)
+X_train = np.array(train_df['features'].tolist())
+y_train = train_df['Type'].values
+
+num_classes = 10
+y_train_adjusted = y_train - 1
+y_train_categorical = to_categorical(y_train_adjusted, num_classes)
+
+model = Sequential()
+model.add(Dense(8, input_dim=8, activation='relu'))
+model.add(Dropout(0.5))  # Dropout 
+model.add(Dense(8, activation='relu'))
+model.add(Dropout(0.5))  # Dropout 
+model.add(Dense(num_classes, activation='softmax'))
 
 
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-model_filepath = 'classification_model.h5'
-
-def create_model(input_dim, output_dim):
-    model = Sequential([
-        Dense(64, input_dim=input_dim, activation='relu'),
-        Dense(64, activation='relu'),
-        Dense(output_dim, activation='sigmoid')  
-    ])
-    model.compile(optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics=['accuracy'])
-    return model
-
-train_df = pd.read_csv('train-classes.csv', delimiter=';')
-
-X = train_df.iloc[:, :8].values  
-y = train_df.iloc[:, 8:].values  
-
-scaler = StandardScaler()
-X = scaler.fit_transform(X)
-
-X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
-
-if os.path.exists(model_filepath):
-    user_input = input("A trained model exists. Do you want to load it (y) or train a new one (n)? ").strip().lower()
-    if user_input == 'y':
-        model = load_model(model_filepath)
-        print("Model loaded successfully.")
-    else:
-        model = create_model(X_train.shape[1], y_train.shape[1])
-        print("Training a new model...")
-        
-        history = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=20, batch_size=32)
-        
-        model.save(model_filepath)
-        print(f"Model trained and saved as {model_filepath}.")
-else:
-    model = create_model(X_train.shape[1], y_train.shape[1])
-    print("No previous model found. Training a new model...")
-   
-    history = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=5, batch_size=32)
-    
-    model.save(model_filepath)
-    print(f"Model trained and saved as {model_filepath}.")
-
-test_df = pd.read_csv('test.csv', delimiter=';')
-X_test = test_df.values
-
-X_test = scaler.transform(X_test)
-
-predictions = model.predict(X_test)
-
-percentages = predictions * 100
-
-# 50% treshold for others class
-threshold = 50.0
+# EarlyStopping
+early_stopping = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
 
 
-classes = ['Current', 'Voltage', 'Service/Warnings', 'Overtemp', 'SOC', 
-           'Temperature', 'Charge/discharge limits', 'Cell voltage data', 'Other/Unknown']
+history = model.fit(X_train, y_train_categorical, epochs=50, batch_size=32, validation_split=0.2, callbacks=[early_stopping])
 
-for i, prediction in enumerate(percentages):
-    print("Predicted content of data:")
-    # predicted category or other (probs < 50 of all)
-    if all(prob < threshold for prob in prediction):
-        print("DATA CANNOT BE CLASSIFIED CORRECTLY, POSSIBLE UNKNOWN DATA")
-    else:
-        for j, percent in enumerate(prediction):
-            print(f"{classes[j]}: {percent:.2f} %")
-    print()
+# Read test data
+test_df = pd.read_csv('test.csv', sep=';')
+test_hex_data = test_df['Data'][0]
+test_features = np.array(hex_string_to_bytes(test_hex_data)).reshape(1, -1)
 
-# Plot 
-if 'history' in locals():
-    plt.figure(figsize=(12, 4))
+# Predict the type
+pred_probs = model.predict(test_features)
+pred_class = np.argmax(pred_probs, axis=1)
+pred_type = pred_class[0] + 1  
 
-    plt.subplot(1, 2, 1)
-    plt.plot(history.history['accuracy'], label='Train Accuracy')
-    plt.plot(history.history['val_accuracy'], label='Val Accuracy')
-    plt.xlabel('Epoch')
-    plt.ylabel('Accuracy')
-    plt.legend()
-    plt.title('Training and Validation Accuracy')
+print("Predicted type:", pred_type)
 
-    plt.subplot(1, 2, 2)
-    plt.plot(history.history['loss'], label='Train Loss')
-    plt.plot(history.history['val_loss'], label='Val Loss')
-    plt.xlabel('Epoch')
-    plt.ylabel('Loss')
-    plt.legend()
-    plt.title('Training and Validation Loss')
+plt.figure(figsize=(12, 5))
 
-    plt.tight_layout()
-    plt.show()
+# Accuracy plot
+plt.subplot(1, 2, 1)
+plt.plot(history.history['accuracy'], label='Train Accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+plt.title('Model Accuracy')
+plt.ylabel('Accuracy')
+plt.xlabel('Epoch')
+plt.legend(loc='lower right')
+
+# Loss plot
+plt.subplot(1, 2, 2)
+plt.plot(history.history['loss'], label='Train Loss')
+plt.plot(history.history['val_loss'], label='Validation Loss')
+plt.title('Model Loss')
+plt.ylabel('Loss')
+plt.xlabel('Epoch')
+plt.legend(loc='upper right')
+
+plt.tight_layout()
+plt.show()
