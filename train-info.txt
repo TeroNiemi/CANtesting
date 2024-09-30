@@ -4,5 +4,3 @@ Types:
 1 = voltage and current
 2 = temperature and soc
 3 = settings and other values
-
-Tämä on uusi rivi

@@ -1,0 +1,434 @@
+Hyperparameter Tuning Results
+
+Combination: Dropout=0.4, Batch size=8, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.0533491373062134, Validation Accuracy: 0.0
+Combination: Dropout=0.4, Batch size=8, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 0.4158395230770111, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=8, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.36051926016807556, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.005073269363492727, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.0015952616231516004, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.0018577551236376166, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=8, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.064332127571106, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.4, Batch size=8, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.1045682430267334, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.4, Batch size=8, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.000377893447876, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 4.812724590301514, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 5.005341053009033, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 6.366932392120361, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=8, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.1939762830734253, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=8, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.396531105041504, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=8, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.831419825553894, Validation Accuracy: 0.2261904776096344
+Combination: Dropout=0.4, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 4.003387928009033, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 5.713149070739746, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 7.478452205657959, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=16, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1383615732192993, Validation Accuracy: 0.0
+Combination: Dropout=0.4, Batch size=16, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 0.8407196402549744, Validation Accuracy: 0.8928571343421936
+Combination: Dropout=0.4, Batch size=16, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.21471643447875977, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.004109465517103672, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.0018065510084852576, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.00035491425660438836, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=16, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 0.9722900390625, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.4, Batch size=16, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.0943982601165771, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.4, Batch size=16, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 0.9801195859909058, Validation Accuracy: 0.1607142835855484
+Combination: Dropout=0.4, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 4.2669243812561035, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 5.287171363830566, Validation Accuracy: 0.1785714328289032
+Combination: Dropout=0.4, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 5.734182834625244, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=16, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.2047744989395142, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=16, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.364663004875183, Validation Accuracy: 0.2380952388048172
+Combination: Dropout=0.4, Batch size=16, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.5405627489089966, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 3.108159303665161, Validation Accuracy: 0.2857142984867096
+Combination: Dropout=0.4, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 5.134718894958496, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 7.0395026206970215, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=32, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.217671513557434, Validation Accuracy: 0.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 0.8261880278587341, Validation Accuracy: 0.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.6611504554748535, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.05296189337968826, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.016741681843996048, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.002509127836674452, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.2167795896530151, Validation Accuracy: 0.0357142873108387
+Combination: Dropout=0.4, Batch size=32, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 0.906601071357727, Validation Accuracy: 0.25
+Combination: Dropout=0.4, Batch size=32, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 0.8708812594413757, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 4.458961009979248, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 4.248410224914551, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 5.108643531799316, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=32, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.0467512607574463, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=32, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.168400764465332, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=32, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 5.343972206115723, Validation Accuracy: 0.2142857164144516
+Combination: Dropout=0.4, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 3.8750431537628174, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.611872434616089, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 4.657876014709473, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=64, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1842812299728394, Validation Accuracy: 0.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 0.9852409958839417, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.8822398781776428, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.05685507133603096, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.02372155711054802, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.07562617212533951, Validation Accuracy: 1.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.2232681512832642, Validation Accuracy: 0.0
+Combination: Dropout=0.4, Batch size=64, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.0450137853622437, Validation Accuracy: 0.8571428656578064
+Combination: Dropout=0.4, Batch size=64, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.9247788190841675, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 2.8951053619384766, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 4.665676593780518, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 5.197907447814941, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.4, Batch size=64, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 0.9675620794296265, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.4, Batch size=64, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.0730371475219727, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.4, Batch size=64, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 2.8752310276031494, Validation Accuracy: 0.190476194024086
+Combination: Dropout=0.4, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 2.3099918365478516, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.1557223796844482, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.4, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 4.571046352386475, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=8, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.2290585041046143, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 0.9869424104690552, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.9372945427894592, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.019584069028496742, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.005964761134237051, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.005691164173185825, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.299086570739746, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=8, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.3454992771148682, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.5, Batch size=8, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.1059844493865967, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 3.177539825439453, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 4.679675579071045, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 6.005770683288574, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=8, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.2943490743637085, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=8, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.2465567588806152, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=8, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.5334012508392334, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 4.059593677520752, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.4750969409942627, Validation Accuracy: 0.3452380895614624
+Combination: Dropout=0.5, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 5.396230697631836, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=16, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1969562768936157, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.0230318307876587, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 1.0280898809432983, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.03431025519967079, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.02375498227775097, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.004386689513921738, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.2935651540756226, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=16, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.1309062242507935, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.5, Batch size=16, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.0992166996002197, Validation Accuracy: 0.01785714365541935
+Combination: Dropout=0.5, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 3.731660842895508, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 4.107590198516846, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 5.104691505432129, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=16, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.3115314245224, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.5, Batch size=16, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.0914678573608398, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=16, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.1499054431915283, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 3.3621296882629395, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.4314167499542236, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 5.8520307540893555, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=32, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1966111660003662, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.0288006067276, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.40914615988731384, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.19432155787944794, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.060098085552453995, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.2854178249835968, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.2353932857513428, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.0787417888641357, Validation Accuracy: 0.2142857164144516
+Combination: Dropout=0.5, Batch size=32, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.1466623544692993, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 3.119469165802002, Validation Accuracy: 0.1785714328289032
+Combination: Dropout=0.5, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 3.9734833240509033, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 4.4806318283081055, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=32, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.2203699350357056, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.5, Batch size=32, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.3044956922531128, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=32, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.1663718223571777, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 3.2347614765167236, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 2.206439733505249, Validation Accuracy: 0.4166666567325592
+Combination: Dropout=0.5, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 2.911966323852539, Validation Accuracy: 0.2738095223903656
+Combination: Dropout=0.5, Batch size=64, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1833432912826538, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=64, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.0932308435440063, Validation Accuracy: 0.0
+Combination: Dropout=0.5, Batch size=64, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.8573240041732788, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.10178112238645554, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.20047627389431, Validation Accuracy: 1.0
+Combination: Dropout=0.5, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.46512386202812195, Validation Accuracy: 0.7142857313156128
+Combination: Dropout=0.5, Batch size=64, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.1984586715698242, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.5, Batch size=64, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 0.9931565523147583, Validation Accuracy: 0.8214285969734192
+Combination: Dropout=0.5, Batch size=64, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.8604137897491455, Validation Accuracy: 0.1428571492433548
+Combination: Dropout=0.5, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 2.528024196624756, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 4.1203837394714355, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 5.155568599700928, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.5, Batch size=64, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.1360595226287842, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.5, Batch size=64, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.0747419595718384, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.5, Batch size=64, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.0846936702728271, Validation Accuracy: 0.2976190447807312
+Combination: Dropout=0.5, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 2.8593506813049316, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.5, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.032770872116089, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.5, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 2.5584354400634766, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.6, Batch size=8, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.2452194690704346, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.1686433553695679, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 1.000064492225647, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.21477344632148743, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.24801357090473175, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.04740027338266373, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.367215871810913, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.3680393695831299, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=8, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.0392813682556152, Validation Accuracy: 0.1785714328289032
+Combination: Dropout=0.6, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 3.013953685760498, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 3.6587843894958496, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=8, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 3.858292818069458, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=8, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.3337501287460327, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.6, Batch size=8, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.257854700088501, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.6, Batch size=8, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.0921971797943115, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 2.864769220352173, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.4309117794036865, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=8, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 4.827353000640869, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=16, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.22783362865448, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.159102439880371, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 1.1141449213027954, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.5170674920082092, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.1923799216747284, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.11211257427930832, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.300635576248169, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.2636748552322388, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.2962278127670288, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 2.1841673851013184, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 3.3096776008605957, Validation Accuracy: 0.1607142835855484
+Combination: Dropout=0.6, Batch size=16, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 4.572714805603027, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=16, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.2485166788101196, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.6, Batch size=16, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.2726373672485352, Validation Accuracy: 0.095238097012043
+Combination: Dropout=0.6, Batch size=16, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.1062895059585571, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 2.8795177936553955, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.2275731563568115, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=16, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 3.857755422592163, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=32, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1825926303863525, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.1769598722457886, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 0.9710736870765686, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.211332768201828, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.36299678683280945, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.22818301618099213, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.2242249250411987, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.1518102884292603, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=32, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.0059740543365479, Validation Accuracy: 0.6071428656578064
+Combination: Dropout=0.6, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 1.681865930557251, Validation Accuracy: 0.125
+Combination: Dropout=0.6, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 3.723613739013672, Validation Accuracy: 0.1607142835855484
+Combination: Dropout=0.6, Batch size=32, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 3.3553264141082764, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=32, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.2013713121414185, Validation Accuracy: 0.1666666716337204
+Combination: Dropout=0.6, Batch size=32, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.2822545766830444, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=32, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.0122863054275513, Validation Accuracy: 0.3452380895614624
+Combination: Dropout=0.6, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 1.9062741994857788, Validation Accuracy: 0.190476194024086
+Combination: Dropout=0.6, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 3.239339590072632, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=32, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 3.0423648357391357, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=64, Validation split=0.1, Activation=relu, Neurons=16
+Validation Loss: 1.1340396404266357, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.1, Activation=relu, Neurons=32
+Validation Loss: 1.0897619724273682, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.1, Activation=relu, Neurons=64
+Validation Loss: 1.091041088104248, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=16
+Validation Loss: 0.5035228133201599, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=32
+Validation Loss: 0.3734753131866455, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.1, Activation=tanh, Neurons=64
+Validation Loss: 0.23705434799194336, Validation Accuracy: 1.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.2, Activation=relu, Neurons=16
+Validation Loss: 1.2074114084243774, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.2, Activation=relu, Neurons=32
+Validation Loss: 1.1802890300750732, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.2, Activation=relu, Neurons=64
+Validation Loss: 1.1673624515533447, Validation Accuracy: 0.0
+Combination: Dropout=0.6, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=16
+Validation Loss: 3.185842275619507, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=32
+Validation Loss: 3.825526714324951, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=64, Validation split=0.2, Activation=tanh, Neurons=64
+Validation Loss: 2.3098747730255127, Validation Accuracy: 0.3035714328289032
+Combination: Dropout=0.6, Batch size=64, Validation split=0.3, Activation=relu, Neurons=16
+Validation Loss: 1.161680817604065, Validation Accuracy: 0.095238097012043
+Combination: Dropout=0.6, Batch size=64, Validation split=0.3, Activation=relu, Neurons=32
+Validation Loss: 1.096361756324768, Validation Accuracy: 0.1785714328289032
+Combination: Dropout=0.6, Batch size=64, Validation split=0.3, Activation=relu, Neurons=64
+Validation Loss: 1.8899343013763428, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=16
+Validation Loss: 1.5709905624389648, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=32
+Validation Loss: 2.8897647857666016, Validation Accuracy: 0.261904776096344
+Combination: Dropout=0.6, Batch size=64, Validation split=0.3, Activation=tanh, Neurons=64
+Validation Loss: 2.751133441925049, Validation Accuracy: 0.1666666716337204
