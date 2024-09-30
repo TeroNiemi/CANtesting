@@ -1,0 +1,9 @@
+Training data manufacturers:   Tesla, Nissan Leaf, BMW, Zebra
+
+Types:
+1 = voltage and current
+2 = temperature
+3 = soc
+4 = temperature and soc
+5 = parameters and settings  
+6 = other data
